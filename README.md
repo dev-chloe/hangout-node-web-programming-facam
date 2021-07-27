@@ -7,3 +7,4 @@ Fast campus Node 웹 프로그래밍 강의
   - [Ch03. 반복문](./01-JavaScript/ch03-iteration#for문)
   - [Ch04. 함수](./01-JavaScript/ch04-function#함수)
   - [Ch05. 프로토타입](./01-JavaScript/ch05-prototype#프로토타입)
+  - [Ch06. 리터럴객체](./01-JavaScript/ch06-literal#리터럴객체)
