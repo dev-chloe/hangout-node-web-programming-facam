@@ -6,3 +6,4 @@
   - [Ch05. 프로토타입](./ch05-prototype#프로토타입)
   - [Ch06. 리터럴객체](./ch06-literal#리터럴객체)
   - [Ch07. 조건문](./ch07-conditional#if문)
+  - [Ch08. 콜백함수 및 클로저](./ch08-callbackAndClosure#콜백함수)
