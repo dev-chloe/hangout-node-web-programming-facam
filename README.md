@@ -10,4 +10,5 @@ Fast campus Node 웹 프로그래밍 강의
   - [Ch06. 리터럴객체](./01-JavaScript/ch06-literal#리터럴객체)
   - [Ch07. 조건문](./01-JavaScript/ch07-conditional#if문)
   - [Ch08. 콜백함수 및 클로저](./01-JavaScript/ch08-callbackAndClosure#콜백함수) 
-  - [Ch09. 프론트엔드사용](./01-JavaScript/ch09-frontend#프론트엔드사용)
+  - [Ch09. 프론트엔드사용](./01-JavaScript/ch09-frontend#프론트엔드사용)  
+  - [Ch10. jQuery](./01-JavaScript/ch10-jQuery#jQuery)
