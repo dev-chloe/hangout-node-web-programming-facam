@@ -9,3 +9,4 @@
   - [Ch08. 콜백함수 및 클로저](./ch08-callbackAndClosure#콜백함수)
   - [Ch09. 프론트엔드사용](./ch09-frontend#프론트엔드사용)
   - [Ch10. jQuery](./ch10-jQuery#jQuery)
+  - [Ch11. ES6](./ch11-ES6#ES6)
