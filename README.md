@@ -15,5 +15,6 @@ Fast campus Node 웹 프로그래밍 강의
   - [Ch11. ES6](./01-JavaScript/ch11-ES6#ES6)   
 
 ## 2. [Node.js](./02-Nodejs#Nodejs)
-  - [Ch01. Node.js란](./02-Nodejs/ch01-Nodejs#Nodejs)
+  - [Ch01. Node.js란](./02-Nodejs/ch01-nodejs#1nodejs)
+  - [Ch02. module pattern](./02-Nodejs/ch02-module-pattern#1모듈패턴)
   
