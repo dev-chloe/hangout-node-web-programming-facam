@@ -1,5 +1,6 @@
 const express = require('express');
 const nunjucks = require('nunjucks');
+const logger = require('morgan');
 
 const admin = require('./routes/admin');
 const contacts = require('./routes/contacts');
@@ -12,13 +13,31 @@ nunjucks.configure('template', {
     express : app
 })
 
+// 미들웨어 셋팅
+app.use(logger('dev'));
+
 app.get('/', (req,res) => {
     res.send('express start');
 });
 
-app.use('/admin', admin );
+function vipMiddleware(req, res, next) {
+    console.log('최우선 미들웨어');
+    next();
+}
+
+app.use('/admin', vipMiddleware, admin );
 app.use('/contacts', contacts );
 
 app.listen( port, () => {
     console.log('Express listening on port', port);
 }); 
+
+/*
+app.js 의 미들웨어가 먼저 나오고
+admin.js의 미들웨어가 나온다
+
+- 미들웨어 순서 결과
+  최우선 미들웨어
+  첫번째 미들웨어
+  두번째 미들웨어
+*/
