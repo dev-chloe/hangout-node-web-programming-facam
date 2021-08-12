@@ -1,6 +1,7 @@
 const express = require('express');
 const nunjucks = require('nunjucks');
 const logger = require('morgan');
+const bodyParser = require('body-parser');
 
 const admin = require('./routes/admin');
 const contacts = require('./routes/contacts');
@@ -15,13 +16,15 @@ nunjucks.configure('template', {
 
 // 미들웨어 셋팅
 app.use(logger('dev'));
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended : false}));
 
 app.get('/', (req,res) => {
     res.send('express start');
 });
 
 function vipMiddleware(req, res, next) {
-    console.log('최우선 미들웨어');
+    // console.log('최우선 미들웨어');
     next();
 }
 

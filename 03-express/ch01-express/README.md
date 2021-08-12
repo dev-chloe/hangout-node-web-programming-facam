@@ -22,6 +22,15 @@
 | 5XX       | 서버 오류                     |  
 
 
-### 2. nodemon
+### 2. nodemon  
 - 서버 코드를 변경 할 때다 서버를 재시작 하는 번거로움을 덜기 위해서 나온 도구
-- 자동으로 서버를 재시작해준다.
+- 자동으로 서버를 재시작해준다.  
+
+### 3. REST API  
+```yaml
+GET /users : 사용자정보
+POST /users : 사용자추가
+GET /users/(ID) : 사용자 한명만 볼 때
+PUT /users/(ID) : 사용자 한명 수정하기
+DELETE /users/(ID) : 삭제
+```

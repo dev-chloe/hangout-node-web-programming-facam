@@ -7,12 +7,12 @@ function testMiddleware(req, res, next) {
 }
 
 function testMiddleware2(req, res, next) {
-  console.log('두번째 미들웨어')
+  // console.log('두번째 미들웨어')
   next();
 }
 
 router.get('/', testMiddleware, testMiddleware2, (req, res) => {
-  res.send('admin 이후 url');
+  // res.send('admin 이후 url');
 })
 
 router.get('/products', (req, res) => {
@@ -21,6 +21,15 @@ router.get('/products', (req, res) => {
     message : 'hi there',
     online : 'line'
   })
+})
+
+router.get('/products/write', (req,res) => {
+  res.render('admin/write.html');
+})
+
+router.post('/products/write', (req,res) => {
+  res.send(req.body);
+  // {"name":"fgbdf","price":"dfgdf","description":"dfgdgd"} 이런식으로 들어온다
 })
 
 module.exports = router;
