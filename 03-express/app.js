@@ -22,6 +22,11 @@ app.use(bodyParser.urlencoded({ extended : false}));
 app.use('/uploads', express.static('uploads'));
 // app.use( 'url', express.static('폴더명'))
 
+app.use( (req,res,next) => {
+    app.locals.isLogin = true;
+    next();
+})
+
 app.get('/', (req,res) => {
     res.send('express start');
 });

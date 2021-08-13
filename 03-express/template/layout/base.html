@@ -8,6 +8,12 @@
 </head>
 <body>
   <div class="container">
+    {% if isLogin %}
+      로그인 중
+    {% else %}
+      로그인이 안 되어있습니다.
+    {% endif %}
+
     {% block content %}{% endblock %}
   </div>
 </body>
