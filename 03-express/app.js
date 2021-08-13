@@ -19,6 +19,9 @@ app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended : false}));
 
+app.use('/uploads', express.static('uploads'));
+// app.use( 'url', express.static('폴더명'))
+
 app.get('/', (req,res) => {
     res.send('express start');
 });
