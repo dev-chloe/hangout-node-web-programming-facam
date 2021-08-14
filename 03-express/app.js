@@ -23,7 +23,7 @@ app.use('/uploads', express.static('uploads'));
 // app.use( 'url', express.static('폴더명'))
 
 app.use( (req,res,next) => {
-    app.locals.isLogin = true;
+    app.locals.isLogin = false;
     next();
 })
 
@@ -38,6 +38,14 @@ function vipMiddleware(req, res, next) {
 
 app.use('/admin', vipMiddleware, admin );
 app.use('/contacts', contacts );
+
+app.use ( (req, res, _) => {
+    res.status(400).render('common/404.html');
+})
+
+app.use ( (req, res, _) => {
+    res.status(500).render('common/500.html');
+})
 
 app.listen( port, () => {
     console.log('Express listening on port', port);
