@@ -24,6 +24,7 @@ app.use('/uploads', express.static('uploads'));
 
 app.use( (req,res,next) => {
     app.locals.isLogin = false;
+    app.locals.req_path = req.path;
     next();
 })
 
