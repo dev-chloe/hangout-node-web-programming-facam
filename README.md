@@ -21,4 +21,7 @@ Fast campus Node 웹 프로그래밍 강의
 
 ## 3. [Express](./03-express#Express)  
   - [Express](./03-express/ch01-express#Express)  
+
+## 3. [Express](./04-Sequelize#Sequelize)  
+  - [Express](./04-Sequelize/ch01-sequelize#Sequelize)  
   
