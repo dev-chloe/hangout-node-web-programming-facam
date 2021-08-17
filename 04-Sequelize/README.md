@@ -1,2 +1,3 @@
-## 1. Express  
-  - [Ch01. Express 시작](./ch01-sequelize#Sequelize) 
+## 1. Sequelize  
+  - [Ch01. sequelize](./ch01-sequelize#Sequelize)  
+  - [Ch02. dotenv](./ch02-dotenv#dotenv)  

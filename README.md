@@ -20,8 +20,9 @@ Fast campus Node 웹 프로그래밍 강의
   - [Ch02. module pattern](./02-Nodejs/ch03-npm#1npm)   
 
 ## 3. [Express](./03-express#Express)  
-  - [Express](./03-express/ch01-express#Express)  
+  - [Ch01. Express 시작](./03-express/ch01-express#Express)  
 
-## 3. [Express](./04-Sequelize#Sequelize)  
-  - [Express](./04-Sequelize/ch01-sequelize#Sequelize)  
+## 4. [Sequelize](./04-Sequelize#Sequelize)  
+  - [Ch01. sequelize](./04-Sequelize/ch01-sequelize#Sequelize)  
+  - [Ch02. dotenv](./04-Sequelize/ch02-dotenv#dotenv)  
   
