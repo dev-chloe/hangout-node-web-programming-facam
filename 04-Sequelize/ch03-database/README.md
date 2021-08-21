@@ -66,3 +66,8 @@ docker start simple-mysql
 docker stop simple-mysql
 docker rm simple-mysql
 ```
+
+<!-- 
+* Check later 
+https://medium.com/mr-leo/using-sequelize-mysql-docker-image-for-development-d13e4eeb3d76
+-->
