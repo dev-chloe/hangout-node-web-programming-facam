@@ -33,6 +33,7 @@ sketch
 # Ignore all local history of files
 .history
 .ionide
+.env
 
 ### yarn ###
 # https://yarnpkg.com/advanced/qa#which-files-should-be-gitignored
