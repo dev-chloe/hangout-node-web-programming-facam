@@ -8,15 +8,19 @@
           <th>작성일</th>
           <th>삭제</th>
       </tr>
+
+      {% for products in products %}
+
       <tr>
-          <td>제품 이름</td>
+          <td>{{ products.name }}</td>
           <td>
-              2020-03-07
+            {{ products.createdAt }}
           </td>
           <td>
               <a href="#" class="btn btn-danger">삭제</a>
           </td>
       </tr>
+      {% endfor %}
   </table>
 
   <a href="/admin/products/write" class="btn btn-default">작성하기</a>
