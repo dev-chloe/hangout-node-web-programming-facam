@@ -9,12 +9,14 @@
           <th>삭제</th>
       </tr>
 
-      {% for products in products %}
+      {% for product in products %}
 
       <tr>
-          <td>{{ products.name }}</td>
           <td>
-            {{ products.createdAt }}
+            <a href="/admin/products/detail/{{ product.id }}">{{ product.name }}</a>
+          </td>
+          <td>
+            {{ product.createdAt }}
           </td>
           <td>
               <a href="#" class="btn btn-danger">삭제</a>
