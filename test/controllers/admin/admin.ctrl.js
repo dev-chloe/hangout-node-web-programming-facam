@@ -40,3 +40,22 @@ exports.get_products_detail = (req, res) => {
     // res.send(product);
   });
 };
+
+exports.get_products_edit = (req, res) => {
+  models.Products.findByPk(req.params.id).then( (product) => {
+    res.render('admin/write.html', { product });  
+  });
+};
+
+exports.post_products_edit = (req, res) => {
+  models.Products.update({
+    // 데어터
+    name: req.body.name,
+    price: req.body.price,
+    description: req.body.description,
+  },{
+    where: { id: req.params.id }
+  }).then(() => {
+    res.redirect('/admin/products/detail/' + req.params.id);
+  })
+};
