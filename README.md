@@ -26,4 +26,7 @@ Fast campus Node 웹 프로그래밍 강의
   - [Ch01. sequelize](./04-Sequelize/ch01-sequelize#Sequelize)  
   - [Ch02. dotenv](./04-Sequelize/ch02-dotenv#dotenv)  
   - [Ch03. database](./04-Sequelize/ch03-database#database)  
+
+## 5. [Promise](./05-promise#Promise)  
+  - [Ch01. Promise](./05-promise/ch01-promise#Promise)  
   
