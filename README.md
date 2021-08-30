@@ -29,4 +29,7 @@ Fast campus Node 웹 프로그래밍 강의
 
 ## 5. [Promise](./05-promise#Promise)  
   - [Ch01. Promise](./05-promise/ch01-promise#Promise)  
+
+## 6. [Crawling](./06-Crawling#Crawling)  
+  - [Ch01. Crawling](./06-Crawling/ch01-crawling#Crawling)  
   
