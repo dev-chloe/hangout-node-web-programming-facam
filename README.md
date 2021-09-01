@@ -32,4 +32,5 @@ Fast campus Node 웹 프로그래밍 강의
 
 ## 6. [Crawling](./06-Crawling#Crawling)  
   - [Ch01. Crawling](./06-Crawling/ch01-crawling#Crawling)  
+  - [Ch02. Puppeteer](./06-Crawling/ch02-puppeteer#Puppeteer)  
   
