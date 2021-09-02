@@ -1,0 +1,15 @@
+{
+  "name": "07-graphql",
+  "version": "1.0.0",
+  "description": "- [Ch01. GraphQL](./ch01-graphql#GraphQL)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "graphql": "^15.5.2"
+  }
+}
