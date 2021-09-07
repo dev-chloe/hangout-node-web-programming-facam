@@ -66,6 +66,8 @@ app.use('/graphql', graphqlHTTP({
   graphiql: true
 }));
 
+app.use('/static', express.static('static'))
+
 app.listen( 4000, () => {
   console.log('running server port 4000');
 })
