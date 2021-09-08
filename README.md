@@ -34,6 +34,9 @@ Fast campus Node 웹 프로그래밍 강의
   - [Ch01. Crawling](./06-Crawling/ch01-crawling#Crawling)  
   - [Ch02. Puppeteer](./06-Crawling/ch02-puppeteer#Puppeteer)  
 
-## 6. [GraphQL](./07-GraphQL#GraphQL)  
+## 7. [GraphQL](./07-GraphQL#GraphQL)  
   - [Ch01. GraphQL](./07-GraphQL/ch01-graphql#GraphQL)  
+
+## 8. [Aws](./08-Aws#Aws)  
+  - [Ch01. GraphQL](./08-Aws/ch01-aws#Aws)  
   
