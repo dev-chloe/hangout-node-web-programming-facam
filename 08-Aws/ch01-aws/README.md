@@ -9,4 +9,34 @@
 1. cd Desktop/
 2. chmod 700 test.pem
 3. ssh -i test.pem ubuntu@`퍼블릭 IPv4 DNS`
+
+# node.js 설치
+1. curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+2. sudo apt-get install -y nodejs
+3. node -v # v14.17.6
+4. npm -v # 6.14.15
+
+# 서버 오류나면 내렸다가 올려주는 것
+sudo npm install -g pm2
+pm2 start bin/www # 시작하기
+pm2 list # 떠 있는 상태 확인
+pm2 stop [i] # 멈추기
+
+# 현위치
+pwd
+
+# 사용자
+whoami
+
+# 숨긴 권한까지 확인
+ls -al
+
+# 우분투 사용자에게 권한 주기
+sudo chown ubuntu:ubuntu myproject/
+
+# package.js 열기
+vi package.js
+
+# vi 나가기
+:wq or :q
 ```
