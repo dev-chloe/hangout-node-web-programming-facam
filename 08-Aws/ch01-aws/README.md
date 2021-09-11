@@ -39,4 +39,12 @@ vi package.js
 
 # vi 나가기
 :wq or :q
+
+# 파일 조회
+ll
+
+# 권한 바꾸기
+chmod 600 test.pem
+
+# fc
 ```
