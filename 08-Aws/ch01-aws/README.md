@@ -47,4 +47,9 @@ ll
 chmod 600 test.pem
 
 # fc
+
+# i > vi에서 입력 버튼
 ```
+
+![](./ec2_rds.png)  
+> 출처: SPONGE-JL님
