@@ -49,7 +49,25 @@ chmod 600 test.pem
 # fc
 
 # i > vi에서 입력 버튼
+
+
+deb https://nginx.org/packages/ubuntu/ bionic nginx 
+deb-src https://nginx.org/packages/ubuntu/ bionic nginx
 ```
 
 ![](./ec2_rds.png)  
 > 출처: SPONGE-JL님
+
+### 2. NGINX
+```bash
+1. sudo vi /etc/apt/sources.list
+2. sources.list 가 열리면
+  deb https://nginx.org/packages/ubuntu/ bionic nginx
+  deb-src https://nginx.org/packages/ubuntu/ bionic nginx
+  를 마지막에 삽입 후 닫기
+3. sudo apt-get update
+4. sudo apt-get install nginx
+5. sudo service nginx start
+6. sudo service nginx status (상태 확인)
+7. sudo apt-get purge nginx nginx-common (nginx 완전 삭제)
+```
