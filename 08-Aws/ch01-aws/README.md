@@ -71,3 +71,5 @@ deb-src https://nginx.org/packages/ubuntu/ bionic nginx
 6. sudo service nginx status (상태 확인)
 7. sudo apt-get purge nginx nginx-common (nginx 완전 삭제)
 ```
+
+> 참조: [AWS와 Ubuntu로 nginx reverse-proxy와 pm2로 nodejs 무중단 서비스 만들기](https://velog.io/@pinot/AWS-Ubuntu%EB%A1%9C-nginx-reverse-proxy-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0)
