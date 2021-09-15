@@ -17,3 +17,40 @@
 > docker: Error response from daemon: Conflict. The container name "..." is already in use by container "...".
 > 참조: [docker: Error response from daemon: Conflict.](https://www.sysnet.pe.kr/2/0/12264)
 
+
+### 2. Dockerfile로 이미지 만들기
+1. index.html 생성
+2. Dockerfile 생성
+
+```dockerfile
+# centOS 이미지를 기반으로 작성
+FROM centos:7
+
+# 아파치를 설치
+RUN yum update -y
+RUN yum install -y httpd
+
+# 현재 폴더의 index.html파일을 아파치 첫화면으로 복사
+COPY index.html /var/www/html
+
+# Fix timezone issue
+ENV TZ=Asia/Seoul
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+
+# 아파치 실행
+RUN systemctl enable httpd
+
+EXPOSE 80
+
+CMD ["apachectl", "-D", "FOREGROUND"]
+```
+3. `docker build -t test .`
+4. `docker images`
+5. `docker run -d --name test-apache -p 80:80 test`
+6. `docker container ls`
+7. `docker container logs test-apache`
+8. `docker container logs -f test-apache` (로그를 계속 보다가 종료할 때, ctrl+c)
+9. `docker exec -it test-apache /bin/sh` (나올때는 exit // ctrl+p,q)
+
+> 참조: [Docker를 이용한 Centos7 + httpd + php 5.4 개발환경 구축](https://ncube.net/centos7-httpd-php-54-development-environment-using-docker/)
+
