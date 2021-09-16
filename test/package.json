@@ -1,25 +1,18 @@
 {
-  "name": "ch01-express",
+  "name": "node",
   "version": "1.0.0",
-  "description": "### 1. Express   - Node.js를 위한 웹 프레임워크의 하나이다.   - Node.js의 사실상의 표준 서버 프레임워크로 불리고 있다.",
-  "main": "index.js",
+  "description": "",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon -e js,html server.js",
-    "dev": "nodemon app.js",
-    "debug": "nodemon --inspect -e js,html server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^10.0.0",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "moment": "^2.29.1",
-    "morgan": "^1.10.0",
-    "mysql2": "^2.3.0",
-    "nodemon": "^2.0.12",
-    "nunjucks": "^3.2.3",
+    "mysql2": "^2.1.0",
     "sequelize": "^4.42.0"
   }
 }

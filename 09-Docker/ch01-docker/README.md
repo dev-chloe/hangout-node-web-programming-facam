@@ -54,3 +54,26 @@ CMD ["apachectl", "-D", "FOREGROUND"]
 
 > 참조: [Docker를 이용한 Centos7 + httpd + php 5.4 개발환경 구축](https://ncube.net/centos7-httpd-php-54-development-environment-using-docker/)
 
+
+
+### 3. Docker Compose
+- Docker Compose는 다수의 컨테이너를 쉽게 운용하기 위한 도구이다.
+- Docker Compose는 yaml 포맷으로 작성되며 여러 개의 컨테이너의 실행을 한 번에 관리를 할 수 있게 해준다.
+- 명령어를 하나씩 입력하는 대신 파일 하나에 한 번에 입력해 간편히 사용할 수 있게 해준다.
+
+```bash
+# Docker Compose install
+sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+
+# root 권한주기
+sudo chmod +x /usr/local/bin/docker-compose
+
+# docker-compose 버전 체크
+docker-compose -v
+
+# docker-compose 띄우기
+docker-compose up
+
+# docker-compose 내리기 
+docker-compose down
+```
