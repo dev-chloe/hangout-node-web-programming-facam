@@ -76,4 +76,13 @@ docker-compose up
 
 # docker-compose 내리기 
 docker-compose down
+
+docker network rm $(docker network ls -q) 
+lsof -nP | grep LISTEN
 ```
+
+### 4. Netcat
+- TCP 또는 UDP를 사용하여 네트워크 연결을 읽고 쓰는 데 사용되는 컴퓨터 네트워킹 유틸리티이다.
+- 직접 또는 다른 프로그램과 스크립트에 의해 직접 또는 간단한 조작에 의해 구동을 쉽게 할수 있도록 Back-end 형식으로 설계됬다.
+- 스크립트와 병용하여 network에 대한 debugging , testing tool 로써 편리성이 보장된다.
+- 네트워크에 대한 디버깅, 테스트 툴이며 원하는 포트를 열고 데이터도 주고받을 수 있기 때문에 악의적으로 이용할 수 있다.
