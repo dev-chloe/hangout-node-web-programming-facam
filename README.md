@@ -42,4 +42,7 @@ Fast campus Node 웹 프로그래밍 강의
 
 ## 9. [Docker](./09-Docker#Docker)  
   - [Ch01. Docker](./09-Docker/ch01-docker#Docker)  
+
+## 10. [Redis](./10-Redis#Redis)  
+  - [Ch01. Redis](./10-Redis/ch01-redis#Redis)  
   
