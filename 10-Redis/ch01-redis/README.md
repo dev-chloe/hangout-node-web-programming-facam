@@ -10,3 +10,97 @@
 # 설치
 brew install redis
 ```
+
+#### 1-1. redis 데이터 타입
+```plaintext
+
+1. Strings
+2. Lists
+3. Sets
+4. Hashes
+```
+
+#### 1-2. redis cli
+```bash
+set key value [EX seconds] [PX milliseconds] [NX|XX]
+# set a 10
+```
+```yaml
+- EX seconds: 만료시간을 초 단위로 설정
+- PX milliseconds: 만료시간을 밀리초 단위로 설정
+- NX: 값이 존재 하지 않을 경우에만 키 값에 값을 저장
+- XX: 값이 존재할 경우에만 키 값에 덮어씀
+```
+
+```bash  
+get key
+# get a 
+# "10"
+
+# 값이 없을 때 (nil)
+```
+
+```bash  
+EXPIRE key seconds [NX|XX|GT|LT]
+# expire a 10
+
+ttl a
+# (integer) 1
+```
+```yaml
+- NX: 키가 만료되지 않은 경우에만 만료 설정
+- XX: 키에 기존 만료가 있는 경우에만 만료 설정
+- GT: 새 만료가 현재 만료보다 클 때만 만료 설정
+- LT: 새 만료가 현재 만료보다 작은 경우에만 만료 설정
+```
+
+```bash  
+# 키 리스트 확인할 때
+keys *
+
+# 키 삭제
+del key
+```
+
+```bash
+# List에 왼쪽에 숫자 넣을 때
+lpush num_lists 2
+# (integer) 1
+# List에 오른쪽에 숫자 넣을 때
+rpush num_lists 3
+# (integer) 1
+
+# List 상태 확인
+lrange num_lists 0 -1 # (전체 다 보여줘라)
+# 1) "2"
+lrange num_lists 0 0 # (0번째 보여줘)
+# 1) "1"
+
+# Lists는 중복을 허용한다
+# ex) [1, 2, 3, 3]
+```
+
+```bash
+# sets에 왼쪽에 숫자 넣을 때
+sadd num_sets 1
+# (integer) 1
+
+# List 상태 확인
+smembers num_sets 
+# 1) "1"
+
+# Lists는 중복을 허용하지 않는다
+# ex) [1, 2, 3]
+```
+
+```bash
+hmset key field value [field value ...]
+# hmset fruit orange 2000 apple 1000
+
+hmget fruit orange
+# 1) "2000"
+
+hmget fruit orange apple
+# 1) "2000"
+# 2) "1000"
+```
