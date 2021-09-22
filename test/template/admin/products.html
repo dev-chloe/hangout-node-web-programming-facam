@@ -15,6 +15,7 @@
     </td>
     <td>
       {{ product.dateFormat( product.createdAt ) }}
+      <!-- {{ product.createdAt }} -->
     </td>
     <td>
       <a href="/admin/products/delete/{{  product.id }}" class="btn btn-danger" onclick="return confirm('삭제하시겠습니까?')">삭제</a>
