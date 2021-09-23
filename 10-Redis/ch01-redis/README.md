@@ -104,3 +104,8 @@ hmget fruit orange apple
 # 1) "2000"
 # 2) "1000"
 ```
+
+```bash
+# redis 실행 
+docker run -p 6379:6379 redis 
+```

@@ -10,6 +10,6 @@ client.hmset('fruit', {
   green: 4000
 });
 
-client.hmgetall('fruit', ( err, res ) => {
+client.hgetall('fruit', ( err, res ) => {
   console.log(res)
 })
