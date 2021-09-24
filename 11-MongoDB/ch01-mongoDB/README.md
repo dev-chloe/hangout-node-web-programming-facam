@@ -36,5 +36,17 @@
 | Column       | key/field  |   
 | Priamary Key | ObjectID   |  
 
+```bash
+# HomeBrew Tap 등록
+brew tap mongodb/brew
 
+# MongoDB 설치
+brew install mongodb-community
+
+# 서비스 등록
+brew services start mongodb-community
+
+# 프로세스 확인
+ps aux | grep -v grep | grep mongod
+```
 
