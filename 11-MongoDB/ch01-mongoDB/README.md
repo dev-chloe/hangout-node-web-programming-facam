@@ -50,3 +50,13 @@ brew services start mongodb-community
 ps aux | grep -v grep | grep mongod
 ```
 
+```bash
+# Error: Your Command Line Tools are too outdated.
+# Update them from Software Update in System Preferences or run
+softwareupdate --all --install --force 
+
+# If that doesn't show you any updates, run:
+sudo rm -rf /Library/Developer/CommandLineTools
+sudo xcode-select --install
+```
+
