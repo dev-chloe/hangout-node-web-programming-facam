@@ -48,4 +48,7 @@ Fast campus Node 웹 프로그래밍 강의
 
 ## 11. [MongoDB](./11-MongoDB#MongoDB)  
   - [Ch01. MongoDB](./11-MongoDB/ch01-mongoDB#MongoDB)  
+
+## 12. [Chat](./11-Chat#Socketio)  
+  - [Ch01. Chat](./11-Chat/ch01-socketio#Socketio)  
   
