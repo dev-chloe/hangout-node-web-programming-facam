@@ -22,7 +22,7 @@
 						주소 검색
 					</a>
 				</div>
-				<div id="map_area" style="width:100%;height:350px; margin:10px 0 10px 0;"></div>
+				<div id="map_area" style="width:100%;height:350px; margin:10px 0 10px 0; visibility: hidden;"></div>
 			</td>
 		</tr>
 	</table>
@@ -39,6 +39,44 @@ document.getElementById("map_area"),
 		level: 3 // 지도의 확대 레벨
 	}
 );
+
+// 주소와 좌표가 존재해야한다
+{% if apt.address and apt.geo %}
+$('#map_area').css('height', '350px');
+mapSearchByAddess(
+	mapContainer,
+	'#map_area',
+	'input[name=geo]',
+	$('input[name=name]'),
+	$('input[name=address]')
+)
+{% endif %}
+
+$('#map_search').click(function(){
+	var $name = $('input[name=name]');
+	var $address = $('input[name=address]');
 	
-	</script>
+	console.log($address.val());
+
+	if(!$name.val()){
+		alert("아파트명을 입력하세요.");
+		return false;
+	}
+
+	if(!$address.val()){
+		alert("주소를 입력하세요.");
+		return false;
+	}
+
+	$('#map_area').css('height','350px');
+
+	mapSearchByAddess( 
+		mapContainer ,
+		'#map_area',
+		'input[name=geo]' ,   
+		$name , 
+		$address
+	);
+})
+</script>
 {% endblock %}
