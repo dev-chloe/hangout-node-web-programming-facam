@@ -4,3 +4,4 @@
   - [Ch03. NodeVsBrowser](./ch03-NodeVsBrowser#NodeVsBrowser)  
   - [Ch04. NodejsREPL](./ch04-NodejsREPL#NodejsREPL)  
   - [Ch05. Npm](./ch05-Npm#Npm)  
+  - [Ch06. SemanticVersioning](./ch06-SemanticVersioning#SemanticVersioning)  

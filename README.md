@@ -61,4 +61,5 @@ Fast campus Node 웹 프로그래밍 강의
   - [Ch03. NodeVsBrowser](./14-node/ch03-NodeVsBrowser#NodeVsBrowser)  
   - [Ch04. NodejsREPL](./14-node/ch04-NodejsREPL#NodejsREPL)  
   - [Ch05. Npm](./14-node/ch05-Npm#Npm)  
+  - [Ch06. SemanticVersioning](./14-node/ch06-SemanticVersioning#SemanticVersioning)  
   
