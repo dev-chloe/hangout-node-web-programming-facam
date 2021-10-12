@@ -62,5 +62,6 @@ Fast campus Node 웹 프로그래밍 강의
   - [Ch04. NodejsREPL](./14-Node/ch04-NodejsREPL#NodejsREPL)  
   - [Ch05. Npm](./14-Node/ch05-Npm#Npm)  
   - [Ch06. SemanticVersioning](./14-Node/ch06-SemanticVersioning#SemanticVersioning)  
-  - [Ch07. Npx](./14-Node/chch07-Npx#Npx)  
-  
+  - [Ch07. Npx](./14-Node/ch07-Npx#Npx)  
+  - [Ch08. Nodemon](./14-Node/ch08-Nodemon#Nodemon)  
+  - [Ch09. ModuleExports](./14-Node/ch09-ModuleExports#ModuleExports)  

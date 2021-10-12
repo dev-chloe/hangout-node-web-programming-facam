@@ -5,4 +5,6 @@
   - [Ch04. NodejsREPL](./ch04-NodejsREPL#NodejsREPL)  
   - [Ch05. Npm](./ch05-Npm#Npm)  
   - [Ch06. SemanticVersioning](./ch06-SemanticVersioning#SemanticVersioning)  
-  - [Ch07. Npx](./chch07-Npx#Npx)  
+  - [Ch07. Npx](./ch07-Npx#Npx)  
+  - [Ch08. Nodemon](./ch07-Nodemon#Nodemon)  
+  - [Ch09. ModuleExports](./ch09-ModuleExports#ModuleExports)  
