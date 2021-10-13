@@ -11,3 +11,4 @@
   - [Ch10. EventLoop](./ch10-EventLoop#EventLoop)  
   - [Ch11. Every](./ch11-Every#Every)  
   - [Ch12. Find&Includes](./ch12-FindNIncludes#Find)  
+  - [Ch13. ForEach](./ch13-ForEach#ForEach)  
