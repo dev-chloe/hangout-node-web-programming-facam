@@ -10,3 +10,4 @@
   - [Ch09. ModuleExports](./ch09-ModuleExports#ModuleExports)  
   - [Ch10. EventLoop](./ch10-EventLoop#EventLoop)  
   - [Ch11. Every](./ch11-Every#Every)  
+  - [Ch12. Find&Includes](./ch12-FindNIncludes#Find)  
