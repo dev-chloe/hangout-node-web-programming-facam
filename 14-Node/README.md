@@ -13,3 +13,4 @@
   - [Ch12. Find&Includes](./ch12-FindNIncludes#Find)  
   - [Ch13. ForEach](./ch13-ForEach#ForEach)  
   - [Ch14. Map&Filter](./ch14-MapNFilter#Map)  
+  - [Ch15. Object.assign Vs Spread](./ch15-Object.assignVsSpread#Object.assign)  
