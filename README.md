@@ -72,4 +72,5 @@ Fast campus Node 웹 프로그래밍 강의
   - [Ch14. Map&Filter](./14-Node/ch14-MapNFilter#Map)  
   - [Ch15. Object.assign Vs Spread](./14-Node/ch15-Object.assignVsSpread#Object.assign)  
   - [Ch16. Set](./14-Node/ch16-Set#Set)  
+  - [Ch17. Some](./14-Node/ch17-Some#Some)  
   
