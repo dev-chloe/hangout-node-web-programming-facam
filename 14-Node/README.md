@@ -16,3 +16,4 @@
   - [Ch15. Object.assign Vs Spread](./ch15-Object.assignVsSpread#Object.assign)  
   - [Ch16. Set](./ch16-Set#Set)  
   - [Ch17. Some](./ch17-Some#Some)  
+  - [Ch18. TemplateString](./ch18-TemplateString#TemplateString)  
