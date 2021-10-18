@@ -75,4 +75,5 @@ Fast campus Node 웹 프로그래밍 강의
   - [Ch17. Some](./14-Node/ch17-Some#Some)  
   - [Ch18. TemplateString](./14-Node/ch18-TemplateString#TemplateString)  
   - [Ch19. String](./14-Node/ch19-String#String)  
+  - [Ch20. TypeChecking](./14-Node/ch20-TypeChecking#TypeChecking)  
   

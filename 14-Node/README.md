@@ -18,3 +18,4 @@
   - [Ch17. Some](./ch17-Some#Some)  
   - [Ch18. TemplateString](./ch18-TemplateString#TemplateString)  
   - [Ch19. String](./ch19-String#String)  
+  - [Ch20. TypeChecking](./ch20-TypeChecking#TypeChecking)  
