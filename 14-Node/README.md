@@ -19,3 +19,4 @@
   - [Ch18. TemplateString](./ch18-TemplateString#TemplateString)  
   - [Ch19. String](./ch19-String#String)  
   - [Ch20. TypeChecking](./ch20-TypeChecking#TypeChecking)  
+  - [Ch21. Hoisting](./ch21-Hoisting#Hoisting)  
