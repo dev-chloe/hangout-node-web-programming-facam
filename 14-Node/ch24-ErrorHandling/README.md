@@ -9,4 +9,5 @@ try {
 }
 ```
 
-[test](./index.js)
+[ex](./index.js)
+[test](./test.js)
