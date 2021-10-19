@@ -22,3 +22,4 @@
   - [Ch21. Hoisting](./ch21-Hoisting#Hoisting)  
   - [Ch22. IIFE](./ch22-IIFE#IIFE)  
   - [Ch23. SetInterval](./ch23-SetInterval#SetInterval)  
+  - [Ch24. Error handling](./ch24-ErrorHandling#ErrorHandling)  
