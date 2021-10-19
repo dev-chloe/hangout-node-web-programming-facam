@@ -78,4 +78,5 @@ Fast campus Node 웹 프로그래밍 강의
   - [Ch20. TypeChecking](./14-Node/ch20-TypeChecking#TypeChecking)  
   - [Ch21. Hoisting](./14-Node/ch21-Hoisting#Hoisting)  
   - [Ch22. IIFE](./14-Node/ch22-IIFE#IIFE)  
+  - [Ch23. SetInterval](./14-Node/ch23-SetInterval#SetInterval)  
   

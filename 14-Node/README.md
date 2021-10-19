@@ -21,3 +21,4 @@
   - [Ch20. TypeChecking](./ch20-TypeChecking#TypeChecking)  
   - [Ch21. Hoisting](./ch21-Hoisting#Hoisting)  
   - [Ch22. IIFE](./ch22-IIFE#IIFE)  
+  - [Ch23. SetInterval](./ch23-SetInterval#SetInterval)  
