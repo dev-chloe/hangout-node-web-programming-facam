@@ -6,3 +6,4 @@
 - 화살표함수에는 this와 argument가 없기 때문이다.
 
 [ex](./index.js)
+[test](./test.js)
