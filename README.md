@@ -80,4 +80,5 @@ Fast campus Node 웹 프로그래밍 강의
   - [Ch22. IIFE](./14-Node/ch22-IIFE#IIFE)  
   - [Ch23. SetInterval](./14-Node/ch23-SetInterval#SetInterval)  
   - [Ch24. Error handling](./14-Node/ch24-ErrorHandling#ErrorHandling)  
+  - [Ch25. Arrow Functions](./14-Node/ch24-ErrorHandling#ErrorHandling)  
   
