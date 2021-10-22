@@ -82,4 +82,7 @@ Fast campus Node 웹 프로그래밍 강의
   - [Ch24. Error handling](./14-Node/ch24-ErrorHandling#ErrorHandling)  
   - [Ch25. Arrow Functions](./14-Node/ch24-ErrorHandling#ErrorHandling)  
   - [Ch26. Class](./14-Node/ch26-Class#Class)  
+  - [Ch27. Class Extends](./14-Node/ch27-ClassExtends#ClassExtends)  
+  
+
   

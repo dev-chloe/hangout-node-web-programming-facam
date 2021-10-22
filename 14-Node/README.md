@@ -25,3 +25,5 @@
   - [Ch24. Error handling](./ch24-ErrorHandling#ErrorHandling)  
   - [Ch25. Arrow Functions](./ch24-ErrorHandling#ErrorHandling)  
   - [Ch26. Class](./ch26-Class#Class)  
+  - [Ch27. Class Extends](./ch27-ClassExtends#ClassExtends)  
+
