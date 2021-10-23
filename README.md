@@ -84,6 +84,5 @@ Fast campus Node 웹 프로그래밍 강의
   - [Ch26. Class](./14-Node/ch26-Class#Class)  
   - [Ch27. Class Extends](./14-Node/ch27-ClassExtends#ClassExtends)  
   - [Ch28. Static Method](./14-Node/ch28-StaticMethod#StaticMethod)  
-  
-
+  - [Ch29. Destructuring](./14-Node/ch28-Destructuring#Destructuring)  
   
