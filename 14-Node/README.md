@@ -28,4 +28,5 @@
   - [Ch27. Class Extends](./ch27-ClassExtends#ClassExtends)  
   - [Ch28. Static Method](./ch28-StaticMethod#StaticMethod)  
   - [Ch29. Destructuring](./ch28-Destructuring#Destructuring)  
+  - [Ch30. Generator](./ch30-Generator#Generator)  
 
