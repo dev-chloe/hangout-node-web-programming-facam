@@ -30,4 +30,5 @@
   - [Ch29. Destructuring](./ch28-Destructuring#Destructuring)  
   - [Ch30. Generator](./ch30-Generator#Generator)  
   - [Ch31. Timers](./ch31-Timers#Timers)  
+  - [Ch32. Event Emitter](./ch32-EventEmitter#EventEmitter)  
 
