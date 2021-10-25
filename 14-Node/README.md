@@ -31,4 +31,5 @@
   - [Ch30. Generator](./ch30-Generator#Generator)  
   - [Ch31. Timers](./ch31-Timers#Timers)  
   - [Ch32. Event Emitter](./ch32-EventEmitter#EventEmitter)  
+  - [Ch33. DNS](./ch33-DNS#DNS)  
 
