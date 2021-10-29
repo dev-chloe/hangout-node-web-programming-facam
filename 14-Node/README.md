@@ -34,6 +34,7 @@
   - [Ch33. DNS](./ch33-DNS#DNS)  
   - [Ch34. File System](./ch34-FileSystem#FileSystem)  
   - [Ch35. Promise.All](./ch35-PromiseAll#PromiseAll)  
-  - [Ch36. Promise.Race](./ch35-PromiseRace#PromiseRace)  
+  - [Ch36. Promise.Race](./ch36-PromiseRace#PromiseRace)  
+  - [Ch37. Http](./ch37-Http#Http)  
 
 
