@@ -33,5 +33,7 @@
   - [Ch32. Event Emitter](./ch32-EventEmitter#EventEmitter)  
   - [Ch33. DNS](./ch33-DNS#DNS)  
   - [Ch34. File System](./ch34-FileSystem#FileSystem)  
-  - [Ch35. PromiseAll](./ch35-PromiseAll#PromiseAll)  
+  - [Ch35. Promise.All](./ch35-PromiseAll#PromiseAll)  
+  - [Ch36. Promise.Race](./ch35-PromiseRace#PromiseRace)  
+
 
