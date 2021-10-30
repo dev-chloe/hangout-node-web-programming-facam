@@ -93,7 +93,8 @@ Fast campus Node 웹 프로그래밍 강의
   - [Ch35. Promise.All](./14-Node/ch35-PromiseAll#PromiseAll)  
   - [Ch36. Promise.Race](./14-Node/ch36-PromiseRace#PromiseRace)  
   - [Ch37. Http](./14-Node/ch37-Http#Http)  
-  - [Ch38. Https](./14-Node/ch37-Https#Https)  
+  - [Ch38. Https](./14-Node/ch38-Https#Https)  
+  - [Ch39. Class vs Prodotype](./14-Node/ch39-ClassVsProdotype#ClassVsProdotype)  
 
   
 
