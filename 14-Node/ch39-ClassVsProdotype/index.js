@@ -1,6 +1,5 @@
 'use strict';
 
-
 function fullstack(backend, frontend) {
   this.backend = backend;
   this.frontend = frontend;
