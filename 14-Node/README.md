@@ -40,5 +40,6 @@
   - [Ch39. Class vs Prodotype](./ch39-ClassVsProdotype#ClassVsProdotype)  
   - [Ch40. Node.js TDD](./ch40-NodeTDD#TDD)  
   - [Ch41. Memory Leakes](./ch41-MemoryLeakes#MemoryLeakes)  
+  - [Ch42. Functinal Programming(1)](./ch41-FunctinalProgramming1#FunctinalProgramming)  
 
 
